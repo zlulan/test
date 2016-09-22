@@ -2,7 +2,7 @@
 
 var wd = require('webdriver-client')({
   platformName: 'desktop',
-  browserName: 'electron'
+  browserName: 'chrome'
 });
 
 describe('macaca desktop sample', function() {
